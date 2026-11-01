@@ -1,0 +1,11 @@
+{
+  "name": "zenith-club-member-experience",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zenith Club membership experience — static GitHub Pages application",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check data.js && node --check band3d.js"
+  }
+}

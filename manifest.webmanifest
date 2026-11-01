@@ -1,0 +1,11 @@
+{
+  "name": "Zenith Club — Member Experience",
+  "short_name": "Zenith",
+  "description": "Your club, connected. Interactive membership demo.",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f2",
+  "theme_color": "#f7f7f2",
+  "icons": [{"src":"assets/zenith-icon.png","sizes":"180x180","type":"image/png","purpose":"any"}]
+}

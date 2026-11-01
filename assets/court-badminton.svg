@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-label="Illustration of a badminton court">
+  <title>Zenith Club — Badminton court illustration</title>
+  <desc>Fictional court illustration. Court lines use regulation badminton proportions.</desc>
+  <defs>
+    <pattern id="grain" width="33" height="31" patternUnits="userSpaceOnUse"><circle cx="4" cy="6" r=".7" fill="#fff" opacity=".08"/><circle cx="22" cy="20" r=".8" fill="#10251d" opacity=".06"/><circle cx="13" cy="27" r=".6" fill="#fff" opacity=".07"/></pattern>
+    <pattern id="mesh" width="5" height="7" patternUnits="userSpaceOnUse"><path d="M0 0H5V7H0Z" fill="none" stroke="#e2e1ce" stroke-width=".5" opacity=".65"/></pattern>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" fill="#8a947e"/>
+  <path d="M-40 94L1040 94M-40 556L1040 556" fill="none" stroke="#e2dac5" stroke-width="39" opacity=".55"/>
+  <g transform="rotate(-9 500 325)">
+    <rect x="100" y="108" width="830" height="468" rx="10" fill="#14241b" opacity=".22" filter="url(#shadow)"/>
+    <rect x="83" y="88" width="834" height="474" rx="7" fill="#dbd4bb"/>
+    <rect x="94" y="99" width="812" height="452" rx="2" fill="#c0b79c"/>
+    <rect x="180" y="179.33" width="640" height="291.34" fill="#557568"/>
+    <rect x="405.43" y="179.33" width="189.13" height="291.34" fill="#507062"/>
+    <rect x="94" y="99" width="812" height="452" fill="url(#grain)"/>
+    <g stroke="#f4ead4" stroke-width="2.6" fill="none" stroke-linecap="square">
+      <rect x="180" y="179.33" width="640" height="291.34"/>
+      <path d="M180 201.3H820"/><path d="M180 448.7H820"/><path d="M216.3 179.33L216.3 470.67"/><path d="M783.7 179.33L783.7 470.67"/><path d="M405.43 179.33L405.43 470.67"/><path d="M594.57 179.33L594.57 470.67"/><path d="M180 325H405.43"/><path d="M594.57 325H820"/>
+    </g>
+    <path d="M513 188.33V479.67" stroke="#0b271c" stroke-width="15" opacity=".13"/>
+    <rect x="497" y="179.33" width="11" height="291.34" fill="#23352d" opacity=".86"/>
+    <rect x="497" y="179.33" width="11" height="291.34" fill="url(#mesh)"/>
+    <path d="M497 179.33V470.67" stroke="#efe7d2" stroke-width="3.5"/>
+    <circle cx="497" cy="179.33" r="4.5" fill="#ede6d5"/><circle cx="497" cy="470.67" r="4.5" fill="#ede6d5"/>
+    <g fill="#2b4032" opacity=".55"><rect x="131" y="121" width="55" height="11" rx="2"/><rect x="810" y="518" width="55" height="11" rx="2"/></g>
+    <g fill="#d7c8aa"><rect x="128" y="116" width="55" height="9" rx="2"/><rect x="807" y="513" width="55" height="9" rx="2"/></g>
+    <path d="M94 151V99H145M855 99H906V151M906 500V551H855M145 551H94V500" fill="none" stroke="#e9e1c9" stroke-width="2" opacity=".45"/>
+  </g>
+  <g transform="translate(51 70)"><ellipse cx="12" cy="17" rx="55" ry="44.0" fill="#142b22" opacity=".15"/><circle r="55" fill="#556e50"/><circle cx="-11.0" cy="-11.0" r="42.35" fill="#6e855e"/><circle cx="13.2" cy="-17.6" r="28.6" fill="#85956b"/></g><g transform="translate(913 52)"><ellipse cx="12" cy="17" rx="67" ry="53.6" fill="#142b22" opacity=".15"/><circle r="67" fill="#556e50"/><circle cx="-13.4" cy="-13.4" r="51.59" fill="#6e855e"/><circle cx="16.08" cy="-21.44" r="34.84" fill="#85956b"/></g><g transform="translate(980 129)"><ellipse cx="12" cy="17" rx="53" ry="42.400000000000006" fill="#142b22" opacity=".15"/><circle r="53" fill="#556e50"/><circle cx="-10.600000000000001" cy="-10.600000000000001" r="40.81" fill="#6e855e"/><circle cx="12.719999999999999" cy="-16.96" r="27.560000000000002" fill="#85956b"/></g><g transform="translate(61 601)"><ellipse cx="12" cy="17" rx="65" ry="52.0" fill="#142b22" opacity=".15"/><circle r="65" fill="#556e50"/><circle cx="-13.0" cy="-13.0" r="50.050000000000004" fill="#6e855e"/><circle cx="15.6" cy="-20.8" r="33.800000000000004" fill="#85956b"/></g><g transform="translate(941 604)"><ellipse cx="12" cy="17" rx="57" ry="45.6" fill="#142b22" opacity=".15"/><circle r="57" fill="#556e50"/><circle cx="-11.4" cy="-11.4" r="43.89" fill="#6e855e"/><circle cx="13.68" cy="-18.240000000000002" r="29.64" fill="#85956b"/></g><g transform="translate(20 329)"><ellipse cx="12" cy="17" rx="47" ry="37.6" fill="#142b22" opacity=".15"/><circle r="47" fill="#556e50"/><circle cx="-9.4" cy="-9.4" r="36.19" fill="#6e855e"/><circle cx="11.28" cy="-15.040000000000001" r="24.44" fill="#85956b"/></g>
+</svg>
