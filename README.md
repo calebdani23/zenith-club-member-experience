@@ -1,5 +1,8 @@
 # Zenith Club — Member Experience
 
+**Live app:** [calebdani23.github.io/zenith-club-member-experience](https://calebdani23.github.io/zenith-club-member-experience/)  
+**Repository:** [calebdani23/zenith-club-member-experience](https://github.com/calebdani23/zenith-club-member-experience)
+
 A complete, responsive redesign of the Zenith Club member/NFC experience. Designed for desktop and mobile, with a light clubhouse palette, a dark appearance, custom band imagery and an interactive Three.js product viewer.
 
 This is a **standalone interactive demonstration**. The original marketing website and production membership application are unchanged.
@@ -34,12 +37,13 @@ The root files are also directly deployable static files. Hash routes (`#home`, 
 
 ## Publish with GitHub Pages
 
-The requested repository destination is a new repository under **calebdani23**, with suggested name **zenith-club-member-experience**. This source package does not itself imply that the remote repository or live site has been created.
+The project is published in **calebdani23/zenith-club-member-experience**, with the live member experience hosted on **GitHub Pages**. Its publishing source is **GitHub Actions**, deploying the `main` branch through the included workflow.
 
-1. Create the repository, upload this source and use `main` as the default branch.
-2. Open **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-3. Push to `main` or run **Publish Zenith Club to GitHub Pages** in Actions.
-4. The included `.github/workflows/pages.yml` checks the JavaScript, builds `dist/` and deploys it with GitHub's official Pages actions.
+For future updates:
+
+1. Push changes to `main` or run **Publish Zenith Club to GitHub Pages** in Actions.
+2. Keep **Settings → Pages → Build and deployment → Source → GitHub Actions** selected.
+3. The included `.github/workflows/pages.yml` checks the JavaScript, builds `dist/` and deploys it with GitHub's official Pages actions.
 
 Alternatively, the root is directly publishable using **Deploy from a branch → main → / (root)**. The `.nojekyll` file avoids unnecessary Jekyll processing.
 
@@ -75,7 +79,7 @@ The cloud preview browser disables WebGL. Its fallback path was observed, but th
 
 The QR was visible in the browser. The preview browser's download capture timed out when exercising the SVG export, so a completed browser download was not verified there. The export and calendar generation code are included; these should be checked in Safari/Chrome on the target device.
 
-GitHub Pages publication must be verified by its actual deployment result and live URL. A prepared workflow or source archive is not evidence of publication.
+The first GitHub Pages deployment completed successfully, and the live URL was opened and verified after publication. GitHub Actions run **41341600405** and deployment job **124952606690** succeeded for commit `c0c314045e4ab8ea74140090a99e1ccdd43a87f0`. The WebGL and browser-download verification limits above still apply.
 
 ## Source references and asset provenance
 
